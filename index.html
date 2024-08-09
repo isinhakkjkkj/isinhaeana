@@ -10,7 +10,7 @@
         <p>Digite seu nome: </p>
         <input type="text" name="nome">
         <p>Email: </p>
-        <input type="email" name="email">
+        <input type="email" name="email" placeholder="Ex." value="@gmail.com">
         <p>Idade: </p>
         <input type="number" name="idade">
         <p>Telefone</p>
@@ -18,8 +18,25 @@
         <p>Você trabalha?</p>
         <input type="radio" name="trabalho" value="sim"> sim
         <input type="radio" name="trabalho" value="sim"> não
+        <select name="estados" id="">
+            <option value="1">Alagoas</option>
+            <option value="2">Bahia</option>
+            <option value="3">Ceará</option>
+            <option value="4">Maranhão</option>
+            <option value="5">Paraíba</option>
+            <option value="6">Santa Catarina</option>
+            <option value="7">São Paulo</option>
+            <option value="8">Sergipe</option>
+            <option value="9">Tocantins</option>
+            <option value="10">Paraná</option>
+        </select>
         <br>
         <input type="checkbox" name="novidades"> aceito receber novidades da empresa
+        <br>
+        <textarea name="reclamacao" id=""></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+
     </form>
 </body>
 </html>
